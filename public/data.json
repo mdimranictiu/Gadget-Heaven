@@ -1,0 +1,147 @@
+[
+    {
+      "product_id": "P001",
+      "product_title": "Samsung Galaxy S23",
+      "product_image": "https://i.ibb.co.com/vdT5ctc/R.jpg",
+      "category": "Phones",
+      "price": 799.99,
+      "description": "A flagship smartphone with cutting-edge performance and a pro-grade camera.",
+      "Specification": [
+        "8GB RAM",
+        "128GB Storage",
+        "6.1-inch AMOLED Display",
+        "5000mAh Battery"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Apple MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/zRjxN9Z/OIP.jpg",
+      "category": "MacBook",
+      "price": 1199.00,
+      "description": "The thinnest and lightest MacBook with the power of the M2 chip.",
+      "Specification": [
+        "M2 Chip",
+        "8GB RAM",
+        "256GB SSD",
+        "13.6-inch Retina Display"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Apple iPhone 15 Pro",
+      "product_image": "https://i.ibb.co.com/pxFWwXJ/iphone-15-pro-black-scaled.jpg",
+      "category": "iPhone",
+      "price": 999.99,
+      "description": "The latest iPhone with advanced features and a titanium design.",
+      "Specification": [
+        "A17 Bionic Chip",
+        "6.1-inch Super Retina XDR Display",
+        "128GB Storage",
+        "ProMotion Technology"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P004",
+      "product_title": "Dell XPS 15",
+      "product_image": "https://i.ibb.co.com/1ZF0X4Q/OIP.jpg",
+      "category": "Laptops",
+      "price": 1599.99,
+      "description": "A premium laptop with excellent performance and a stunning display.",
+      "Specification": [
+        "12th Gen Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "15.6-inch OLED Display"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Samsung Galaxy Watch 6",
+      "product_image": "https://i.ibb.co.com/N71T20T/galaxy-watch6-kv-pc.webp",
+      "category": "Smart Watches",
+      "price": 349.99,
+      "description": "A smartwatch with advanced health tracking and long battery life.",
+      "Specification": [
+        "44mm Case",
+        "Bluetooth and Wi-Fi Connectivity",
+        "Health Monitoring Features",
+        "Customizable Watch Faces"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/CtGLsvx/OIP.jpg",
+      "category": "Smart Watches",
+      "price": 399.99,
+      "description": "Apple's latest smartwatch with improved performance and health features.",
+      "Specification": [
+        "45mm Case",
+        "Always-On Retina Display",
+        "Blood Oxygen Sensor",
+        "GPS + Cellular"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P007",
+      "product_title": "Sony WH-1000XM5",
+      "product_image": "https://i.ibb.co.com/HTX0F2n/OIP.jpg",
+      "category": "Accessories",
+      "price": 349.99,
+      "description": "Noise-canceling headphones with premium sound quality and long battery life.",
+      "Specification": [
+        "30-hour Battery Life",
+        "Active Noise Cancellation",
+        "Bluetooth 5.2",
+        "Quick Charge Support"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P008",
+      "product_title": "Apple iPhone 14",
+      "product_image": "https://i.ibb.co.com/DRqcqTK/0x0.webp",
+      "category": "iPhone",
+      "price": 799.00,
+      "description": "A powerful and reliable smartphone with great battery life and a sleek design.",
+      "Specification": [
+        "A15 Bionic Chip",
+        "6.1-inch Super Retina XDR Display",
+        "128GB Storage",
+        "Dual-Camera System"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P009",
+      "product_title": "Lenovo Legion 5 Pro",
+      "product_image": "https://i.ibb.co.com/7jjJrLN/OIP.jpg",
+      "category": "Laptops",
+      "price": 1499.99,
+      "description": "A powerful gaming laptop with a high refresh rate display and excellent cooling.",
+      "Specification": [
+        "AMD Ryzen 7",
+        "16GB RAM",
+        "512GB SSD",
+        "16-inch QHD 165Hz Display"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
+  
