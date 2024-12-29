@@ -28,7 +28,7 @@
         "256GB SSD",
         "13.6-inch Retina Display"
       ],
-      "availability": true,
+      "availability": false,
       "rating": 4.8
     },
     {
@@ -68,7 +68,7 @@
       "product_title": "Samsung Galaxy Watch 6",
       "product_image": "https://i.ibb.co.com/N71T20T/galaxy-watch6-kv-pc.webp",
       "category": "Smart Watches",
-      "price": 349.99,
+      "price": 379.99,
       "description": "A smartwatch with advanced health tracking and long battery life.",
       "Specification": [
         "44mm Case",

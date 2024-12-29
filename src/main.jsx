@@ -9,6 +9,7 @@ import {
 import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Home from './components/Home/Home.jsx';
 import GadgetContextProvider from './components/Context/GadgetContextProvider.jsx';
+import ViewDetails from './components/ViewDetails/ViewDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path:"/",
         element: <Home></Home>
+      },
+      {
+        path:"/viewDetails",
+        element: <ViewDetails></ViewDetails>
       }
     ]
   },
