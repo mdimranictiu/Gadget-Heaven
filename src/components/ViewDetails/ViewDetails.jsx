@@ -6,13 +6,44 @@ import { LuHeart } from "react-icons/lu";
 
 
 const ViewDetails = () => {
+  // Initial array
+let tasks = ['Task 1', 'Task 2', 'Task 3'];
+
+// Store the array
+localStorage.setItem('tasks', JSON.stringify(tasks));
   const location = useLocation();
   const product = location?.state;
   const { product_title,description, price, availability,Specification,rating,product_image } = product;
   document.title=`${product_title} Details View`
+
+ const handleAddToCart=()=>{
+
+  const getItem=localStorage.getItem('cart');
+  const setItem=localStorage.setItem('cart');
+
+  const existingCart=JSON.parse(getItem)
+
+  // if the product is already in the cart
+  const productIndex=existingCart.findIndex(item=>{
+    item.product_id===product.product_id
+  })
+
+  if(productIndex>-1){
+    existingCart[productIndex].quantity+=1;
+
+  }
+  else{
+    existingCart.push({...product,quantity:1})
+  }
+  localStorage.setItem('cart',JSON.stringify(existingCart))
+  alert(`${product_title} has been added to your cart!`);
+
+
+}
+
   return (
     <div className="pb-[220px] relative">
-      <div className="bg-purple-700  gap-5 h-[400px] flex flex-col   items-center">
+      <div className="bg-[#9538E2]  gap-5 h-[400px] flex flex-col   items-center">
         <h2 className="mt-12 text-white font-bold text-[32px]">
           Product Details
         </h2>
@@ -64,7 +95,7 @@ const ViewDetails = () => {
                           />
 
                           <div className="py-2 flex items-center gap-5">
-                            <button className="bg-white px-6 hover:bg-[#9538E2] text-[#9538E2] hover:text-white py-2 text-[16px] font-semibold rounded-[32px] border-2 border-[#9538E2]">Add to Cart</button>
+                            <button onClick={handleAddToCart} className="bg-white px-6 hover:bg-[#9538E2] text-[#9538E2] hover:text-white py-2 text-[16px] font-semibold rounded-[32px] border-2 border-[#9538E2]">Add to Cart</button>
                             <button className="bg-white px-6 hover:bg-[#9538E2] text-[#9538E2] hover:text-white py-2 text-[16px] font-semibold rounded-[32px] border-2 border-[#9538E2]"><LuHeart></LuHeart></button>
                           </div>
 

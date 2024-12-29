@@ -10,6 +10,7 @@ import ErrorPage from './components/ErrorPage/ErrorPage.jsx';
 import Home from './components/Home/Home.jsx';
 import GadgetContextProvider from './components/Context/GadgetContextProvider.jsx';
 import ViewDetails from './components/ViewDetails/ViewDetails.jsx';
+import Dashboard from './components/Dashboard/Dashboard.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path:"/viewDetails",
         element: <ViewDetails></ViewDetails>
+      },
+      {
+        path:"/dashboard",
+        element: <Dashboard></Dashboard>
       }
     ]
   },

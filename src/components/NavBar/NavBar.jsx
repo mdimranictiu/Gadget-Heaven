@@ -17,8 +17,8 @@ const NavBar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-10 text-xl font-semibold">
           <Link to="/">Home</Link>
-          <Link to="/">About</Link>
-          <Link to="/">Services</Link>
+          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/stastics">Stastics</Link>
           <Link to="/">Contact</Link>
         </div>
 
