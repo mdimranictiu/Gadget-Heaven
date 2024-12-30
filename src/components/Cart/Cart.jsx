@@ -58,7 +58,7 @@ const Cart = () => {
             <CartProduct key={index} product={product} setProducts={setProducts} products={products}/>
           ))
         ) : (
-            <h3 className="font-bold text-center text-2xl">Your Cart is empty </h3>
+            <h3 className="font-bold text-center py-20 text-2xl">Your Cart is empty </h3>
         )}
       </div>
     </div>

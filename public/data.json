@@ -142,6 +142,152 @@
       ],
       "availability": true,
       "rating": 4.6
+    },
+    {
+      "product_id": "P010",
+      "product_title": "Razer Blade 15",
+      "product_image": "https://i.ibb.co.com/8YMpWbt/IMG-20190803-153212.webp",
+      "category": "Laptops",
+      "price": 1699.99,
+      "description": "A high-performance gaming laptop with a sleek design.",
+      "Specification": [
+        "12th Gen Intel Core i7",
+        "16GB RAM",
+        "1TB SSD",
+        "15.6-inch QHD 240Hz Display"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P011",
+      "product_title": "ASUS ZenBook Pro Duo",
+      "product_image": "https://i.ibb.co.com/zQ5R13d/asus-ux581gv-xb74t-15-6-zenbook-pro-duo-1502409.jpg",
+      "category": "Laptops",
+      "price": 1999.99,
+      "description": "A dual-screen laptop perfect for multitasking and creative professionals.",
+      "Specification": [
+        "Intel Core i9-12900H",
+        "32GB RAM",
+        "1TB SSD",
+        "14-inch 4K UHD Touchscreen + Secondary Screen"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P012",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/QmKsr5j/hp-spectre-x360-15-2020-8f6y-1920.webp",
+      "category": "Laptops",
+      "price": 1399.99,
+      "description": "A sleek convertible laptop with versatile functionality.",
+      "Specification": [
+        "Intel Core i7-12700H",
+        "16GB RAM",
+        "1TB SSD",
+        "13.5-inch UHD Display"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P013",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co.com/wMh8Pb7/R.jpg",
+      "category": "Laptops",
+      "price": 1499.99,
+      "description": "Durable and business-oriented with robust features.",
+      "Specification": [
+        "Intel Core i7-1260P",
+        "16GB RAM",
+        "512GB SSD",
+        "14-inch WQHD+ Display"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P014",
+      "product_title": "ASUS ROG Zephyrus G14",
+      "product_image": "https://i.ibb.co.com/JRMXXSP/OIP.jpg",
+      "category": "Laptops",
+      "price": 1599.99,
+      "description": "A powerful gaming laptop with excellent portability.",
+      "Specification": [
+        "AMD Ryzen 9 6900HS",
+        "16GB RAM",
+        "1TB SSD",
+        "14-inch QHD Display"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P015",
+      "product_title": "Acer Swift 5",
+      "product_image": "https://i.ibb.co.com/bWKPqvw/R.jpg",
+      "category": "Laptops",
+      "price": 1099.99,
+      "description": "A lightweight laptop with long-lasting battery life.",
+      "Specification": [
+        "Intel Core i5-1240P",
+        "16GB RAM",
+        "512GB SSD",
+        "14-inch FHD Display"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "P016",
+      "product_title": "Microsoft Surface Laptop 5",
+      "product_image": "https://i.ibb.co.com/9pmGBwV/OIP.jpg",
+      "category": "Laptops",
+      "price": 1299.99,
+      "description": "Stylish design with excellent touch support.",
+      "Specification": [
+        "Intel Core i7-1255U",
+        "16GB RAM",
+        "512GB SSD",
+        "13.5-inch PixelSense Display"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P017",
+      "product_title": "Realme GT Neo 5",
+      "product_image": "https://i.ibb.co.com/Yjj6Lxx/47435-realme-gt-neo-5-11.jpg",
+      "category": "Phones",
+      "price": 599.99,
+      "description": "A high-performance Realme smartphone with ultra-fast charging.",
+      "Specification": [
+        "Snapdragon 8+ Gen 1",
+        "6.74-inch AMOLED 144Hz Display",
+        "256GB Storage",
+        "50MP Sony IMX890 Camera",
+        "240W UltraDart Charging"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P018",
+      "product_title": "Apple AirPods Pro (2nd Generation)",
+      "product_image": "https://i.ibb.co.com/tXccYF3/Apple-Air-Pods-Pro-2nd-gen-hero-220907.webp",
+      "category": "Accessories",
+      "price": 249.99,
+      "description": "High-quality wireless earbuds with active noise cancellation and excellent sound.",
+      "Specification": [
+        "Active Noise Cancellation",
+        "Transparency Mode",
+        "Personalized Spatial Audio",
+        "Up to 6 hours of listening time on a single charge"
+      ],
+      "availability": true,
+      "rating": 4.8
     }
+    
   ]
   

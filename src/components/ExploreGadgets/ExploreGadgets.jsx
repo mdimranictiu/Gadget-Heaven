@@ -1,4 +1,3 @@
-import axios from 'axios';
 import React, { useContext, useEffect, useState } from 'react';
 import Gadgets from '../Gadgets/Gadgets';
 import { GadgetContext } from '../Context/GadgetContextProvider';
@@ -6,7 +5,7 @@ import { GadgetContext } from '../Context/GadgetContextProvider';
 
 
 const ExploreGadgets = () => {
-    const {gadgets,error,loading}=useContext(GadgetContext);
+    const {gadgets,loading}=useContext(GadgetContext);
     const [newgadgets,setCategories]=useState([])
     const [activeClass,setActiveClass]=useState('all')
 

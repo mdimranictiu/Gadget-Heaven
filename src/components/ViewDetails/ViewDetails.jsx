@@ -5,6 +5,7 @@ import { LuHeart } from "react-icons/lu";
 import Swal from "sweetalert2";
 
 const ViewDetails = () => {
+  const [active,setActive]=useState(true)
   const location = useLocation();
   const product = location?.state;
   const {
@@ -21,23 +22,21 @@ const ViewDetails = () => {
   const handleAddToCart = () => {
     const products = JSON.parse(localStorage.getItem("cart")) || [];
 
-    // Check if the product already exists in the cart
+    // Check if the product already exists 
     const productIndex = products.findIndex(
       (item) => item.product_id === product.product_id
     );
     let productAdded = false;
     if (productIndex !== -1) {
-      // Product found, increase quantity by 1
       const existingProduct = products[productIndex];
       existingProduct.quantity += 1;
       productAdded = false;
     } else {
-      // Product not found, add with quantity 1
+      // Product not found
       products.push({ ...product, quantity: 1 });
       productAdded = true;
     }
 
-    // Update the cart in localStorage with the updated products array
     localStorage.setItem("cart", JSON.stringify(products));
 
     if (productAdded) {
@@ -60,14 +59,39 @@ const ViewDetails = () => {
 
    
   };
-   const handleWishList=()=>{
-      const wishLists=  JSON.parse(localStorage.getItem('wishLists')) || [];
-
-      const newwishList=[...wishLists,product]
-
-      localStorage.setItem('wishLists',JSON.stringify(newwishList))
-
+  const handleWishList = () => {
+    const wishLists = JSON.parse(localStorage.getItem("wishLists")) || [];
+    const productIndex = wishLists.findIndex(
+      (item) => item.product_id === product.product_id
+    );
+  
+    if (productIndex === -1) {
+      const newWishList = [...wishLists, product];
+      localStorage.setItem("wishLists", JSON.stringify(newWishList));
+      setActive(false); 
+      Swal.fire({
+        title: "Added to Wishlist!",
+        text: "Product successfully added to your wishlist.",
+        icon: "success",
+        timer: 2000,
+        showConfirmButton: false,
+      });
+    } else {
+      Swal.fire({
+        title: "Already in Wishlist",
+        text: "This product is already in your wishlist.",
+        icon: "info",
+        timer: 2000,
+        showConfirmButton: false,
+      });
     }
+  };
+  
+
+      
+      
+
+  //   }
 
   return (
     <div className="pb-[220px] relative">
@@ -134,7 +158,10 @@ const ViewDetails = () => {
               >
                 Add to Cart
               </button>
-              <button onClick={handleWishList} className="bg-white px-6 hover:bg-[#9538E2] text-[#9538E2] hover:text-white py-2 text-[16px] font-semibold rounded-[32px] border-2 border-[#9538E2]">
+              <button onClick={handleWishList}  disabled={!active} className={`px-6 py-2 hover:bg-[#9538E2]  hover:text-white   text-[16px] font-semibold rounded-[32px] border-2 text-[#9538E2] ${
+                  !active ? "cursor-not-allowed disabled bg-white" : "bg-white   border-[#9538E2]"
+                }`}
+              >
                 <LuHeart></LuHeart>
               </button>
             </div>

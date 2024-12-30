@@ -11,6 +11,7 @@ import Home from './components/Home/Home.jsx';
 import GadgetContextProvider from './components/Context/GadgetContextProvider.jsx';
 import ViewDetails from './components/ViewDetails/ViewDetails.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
+import Stastics from './components/Stastics/Stastics.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path:"/dashboard",
         element: <Dashboard></Dashboard>
+      },
+      {
+        path:"/stastics",
+        element: <Stastics></Stastics>
       }
     ]
   },

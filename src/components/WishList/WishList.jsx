@@ -14,7 +14,7 @@ const WishList = () => {
               <WishListCard key={index} product={product} setwishListProducs={setwishListProducs} wishListProducts={wishListProducts}/>
             ))
           ) : (
-            <h3 className="font-bold text-center text-2xl">Your WishLists is empty </h3>
+            <h3 className="font-bold text-center py-20 text-2xl">Your WishLists is empty </h3>
           )}
         </div>
       </div>
