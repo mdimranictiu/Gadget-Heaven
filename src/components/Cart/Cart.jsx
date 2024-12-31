@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from "react";
 import CartProduct from "../CartProduct/CartProduct";
+import SuccessLogo from '../../assets/Group.png';
+import { useNavigate } from "react-router-dom";
 
 const Cart = () => {
   const [cost, setCost] = useState("");
+  const [amount,setAmount]=useState(0)
+  const navigate=useNavigate();
   const [products, setProducts] = useState(
     JSON.parse(localStorage.getItem("cart")) || []
   );
@@ -13,13 +17,14 @@ const Cart = () => {
       const productPrice = product.price;
       const productQty = product.quantity;
       const price = productPrice * productQty;
-      totalprice = Math.floor(totalprice + price);
+      totalprice = (totalprice + price);
     });
-    setCost(totalprice);
+    setCost(totalprice.toFixed(2));
   };
   useEffect(() => {
     totalCost();
   });
+
   const handleSorting = (sortItem) => {
     const sorted = [...products].sort((a, b) => {
       if (sortItem === "price") {
@@ -31,6 +36,23 @@ const Cart = () => {
     });
     setProducts(sorted);
   };
+  
+  const handlePurchase=()=>{
+    document.getElementById('my_modal_4').showModal()
+    setAmount(cost)
+    localStorage.removeItem("cart");
+    setProducts([])
+    
+  }
+  const handleCloseModal=()=>{
+    document.getElementById('my_modal_4').close()
+    setAmount(0)
+    navigate('/')
+
+
+  }
+  
+
   return (
     <div className="py-10 px-5">
       <div className="flex justify-between max-sm:flex-col items-center gap-5 max-md:flex-col">
@@ -47,10 +69,15 @@ const Cart = () => {
             </select>
           </button>
 
-          <button className="bg-white px-6 hover:bg-[#9538E2] text-[#9538E2] hover:text-white py-2 text-[16px] font-semibold rounded-[32px] border-2 border-[#9538E2]">
-            Purchase
-          </button>
-        </div>
+          <button
+  onClick={handlePurchase}
+  disabled={products.length === 0}
+  className={`bg-white text-center px-6 hover:bg-[#9538E2] text-[#9538E2] hover:text-white py-2 text-[16px] font-semibold rounded-[32px] border-2 border-[#9538E2] ${
+    products.length === 0 ? "cursor-not-allowed opacity-50" : ""
+  }`}
+>
+  Purchase
+</button></div>
       </div>
       <div className="py-10 ">
         {products.length > 0 ? (
@@ -61,6 +88,19 @@ const Cart = () => {
             <h3 className="font-bold text-center py-20 text-2xl">Your Cart is empty </h3>
         )}
       </div>
+      {/* You can open the modal using document.getElementById('ID').showModal() method */}
+<dialog id="my_modal_4" className="modal">
+  <div className="modal-box w-3/5 flex flex-col items-center mx-auto ">
+  <img src={SuccessLogo} alt="Success" />
+ 
+    <h3 className="font-bold text-lg py-2">Payment Successfully</h3>
+    <hr className="w-4/5 mx-auto" />
+    <p className="py-4">Thanks for purchasing</p>
+    <p>Total: ${amount}</p>
+
+    <button onClick={handleCloseModal} className=" w-[200px] bg-white px-2 hover:text-white hover:bg-[#9538E2] text-[#9538E2] my-5 py-2 text-[16px] font-semibold rounded-[32px] border-2 border-[#9538E2] mx-auto">Close</button>
+  </div>
+</dialog>
     </div>
   );
 };

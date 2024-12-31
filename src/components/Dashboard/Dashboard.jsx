@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Cart from '../Cart/Cart';
 import WishList from '../WishList/WishList';
 const Dashboard = () => {
+    document.title='Dashboard'
     const [isActive,setisActive]=useState({
         isCart:true,
         status:'Cart',
@@ -26,7 +27,7 @@ const Dashboard = () => {
 
         }
     }
-    return (
+  return (
         <div>
             <div className="bg-[#9538E2] py-5 text-center gap-5 flex flex-col   items-center">
         <h2 className="mt-12 text-white font-bold text-[32px]">
