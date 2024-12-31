@@ -24,8 +24,7 @@ const Stastics = () => {
         Stastics
         </h2>
         <p className="max-w-[600px] text-center text-white text-[16px]">
-          Explore the latest gadgets that will take your experience to the next
-          level. From smart devices to the coolest accessories, we have it all!
+        We have created this Chart for easy visaulization about our product.
         </p>
         
           </div> 

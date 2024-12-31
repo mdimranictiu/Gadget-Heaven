@@ -34,8 +34,7 @@ const Dashboard = () => {
           Dashboard
         </h2>
         <p className="max-w-[600px] text-center text-white text-[16px]">
-          Explore the latest gadgets that will take your experience to the next
-          level. From smart devices to the coolest accessories, we have it all!
+         Welcome to Dashboard. Check you wishlist and purchase the product. You can explore about different kinds of product.  
         </p>
         <div className='flex gap-6 text-xl py-5'>
             <button onClick={()=>ToggleCart('Cart')} className={isActive.isCart? 'px-10 rounded-[32px] py-3 bg-white border-2 border-white text-[#9538E2]':"px-10 rounded-[32px] py-3 border-2 text-white border-white "}>Cart</button>
