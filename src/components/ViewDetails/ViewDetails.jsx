@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { ScrollRestoration, useLocation } from "react-router-dom";
 import ReactStars from "react-rating-stars-component";
 import { LuHeart } from "react-icons/lu";
 import Swal from "sweetalert2";
@@ -92,10 +92,10 @@ const ViewDetails = () => {
       
 
   //   }
-
   return (
-    <div className="pb-[220px] relative">
+    <div className="relative min-h-screen">
       <div className="bg-[#9538E2]  gap-5 h-[400px] flex flex-col   items-center">
+        <ScrollRestoration></ScrollRestoration>
         <h2 className="mt-12 text-white font-bold text-[32px]">
           Product Details
         </h2>

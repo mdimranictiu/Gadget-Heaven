@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='bg-[#f4efef4d]  mb-20'>
+        <div className='bg-[#f4efef4d] py-10'>
             <div className='flex flex-col items-center '>
             <h3 className='text-3xl font-bold py-3'>Gadget Heaven</h3>
             <p>Leading the way in cutting-edge technology and innovation.</p>

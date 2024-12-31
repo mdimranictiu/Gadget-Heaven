@@ -1,8 +1,10 @@
 # Project Name: Gadget Heaven
 
 ## Live Website Link
+https://gadget-heaven-pi.vercel.app/
 
 ## Requirement Document Link
+https://drive.google.com/file/d/11WYpi150x9mQ2whZlBLp_h_AOZFrkl0o/view?usp=sharing
 
 ## Project Overview
 Gadget Heaven is one of top-notch E-commerce websie. It is a feature-rich platform designed to showcase and sell the latest gadgets. It provides users with an engaging and interactive experience, allowing them to explore various devices and make informed purchases.
