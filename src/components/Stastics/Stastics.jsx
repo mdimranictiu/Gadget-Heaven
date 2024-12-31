@@ -24,7 +24,7 @@ const Stastics = () => {
         Stastics
         </h2>
         <p className="max-w-[600px] text-center text-white text-[16px]">
-        We have created this Chart for easy visaulization about our product.
+        We have created this Chart for easy visaulization about our product. Hope you enjoy it.
         </p>
         
           </div> 

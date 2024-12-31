@@ -9,7 +9,7 @@ const Gadgets = ({gadget,loading}) => {
     useEffect(()=>{
 
         const timer = setTimeout(() => {
-            setShowContent(true); // Show content after 2 seconds
+            setShowContent(true); 
           }, 1000);
       
           return () => clearTimeout(timer);
