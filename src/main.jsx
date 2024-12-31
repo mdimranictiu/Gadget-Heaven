@@ -12,6 +12,7 @@ import GadgetContextProvider from './components/Context/GadgetContextProvider.js
 import ViewDetails from './components/ViewDetails/ViewDetails.jsx';
 import Dashboard from './components/Dashboard/Dashboard.jsx';
 import Stastics from './components/Stastics/Stastics.jsx';
+import Support from './components/Support/Support.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,8 +35,10 @@ const router = createBrowserRouter([
       {
         path:"/stastics",
         element: <Stastics></Stastics>,
-       
-
+      },
+      {
+        path:"/support",
+        element: <Support></Support>,
       }
     ]
   },
