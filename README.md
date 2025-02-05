@@ -58,10 +58,3 @@ Gadget Heaven is a top-notch e-commerce platform designed to showcase and sell t
 
 ---
 
-## 🚀 Installation
-
-To set up the project locally, follow these steps:
-
-1. **Clone the Repository**  
-   ```sh
-   git clone https://github.com/your-repository/gadget-heaven.git
