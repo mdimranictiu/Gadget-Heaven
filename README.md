@@ -6,16 +6,18 @@
 
 Gadget Heaven is a top-notch e-commerce platform designed to showcase and sell the latest gadgets. It provides users with an engaging and interactive experience, allowing them to explore various devices and make informed purchases. The platform features a dynamic UI, seamless navigation, and interactive data visualization for an enhanced shopping experience.
 
+## 🖼 Screenshot  
+![Library Management System Screenshot](src/assets/s.png)
+
 ## 📖 Table of Contents
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [React Fundamentals Used](#react-fundamentals-used)
 - [Data Handling & Management](#data-handling--management)
+- [Dependencies used](#dependencies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
@@ -57,4 +59,39 @@ Gadget Heaven is a top-notch e-commerce platform designed to showcase and sell t
 - **Local Storage** – Stores cart items and user preferences for persistent data retention.
 
 ---
+## 📦 Dependencies  
+The project uses the following npm packages:  
+```
+@eslint
+@types/react-dom
+@types/react
+@vitejs/plugin-react
+animate.css
+aos
+autoprefixer
+axios
+daisyui
+eslint-plugin-react-hooks
+eslint-plugin-react-refresh
+eslint-plugin-react
+eslint
+firebase
+globals
+localforage
+lottie-react
+match-sorter
+postcss
+react-countup
+react-dom
+react-icons
+react-rating-stars-component
+react-responsive-carousel
+react-router-dom
+react
+sort-by
+sweetalert2
+swiper
+tailwindcss
+vite
+```
 
