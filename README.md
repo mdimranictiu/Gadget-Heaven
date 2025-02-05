@@ -1,4 +1,4 @@
-# Gadget Heaven
+# Project Name:  Gadget Heaven
 
 **Live Website:** [Gadget Heaven](https://gadget-heaven-pi.vercel.app/)  
 
@@ -7,7 +7,7 @@
 Gadget Heaven is a top-notch e-commerce platform designed to showcase and sell the latest gadgets. It provides users with an engaging and interactive experience, allowing them to explore various devices and make informed purchases. The platform features a dynamic UI, seamless navigation, and interactive data visualization for an enhanced shopping experience.
 
 ## 🖼 Screenshot  
-![Library Management System Screenshot](src/assets/s.png)
+![Gadget Heaven](src/assets/s.png)
 
 ## 📖 Table of Contents
 
