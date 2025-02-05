@@ -1,38 +1,67 @@
-# Project Name: Gadget Heaven
+# Gadget Heaven
 
-## Live Website Link
-https://gadget-heaven-pi.vercel.app/
+**Live Website:** [Gadget Heaven](https://gadget-heaven-pi.vercel.app/)  
 
-## Requirement Document Link
-https://drive.google.com/file/d/11WYpi150x9mQ2whZlBLp_h_AOZFrkl0o/view?usp=sharing
+## 📌 Project Overview
 
-## Project Overview
-Gadget Heaven is one of top-notch E-commerce websie. It is a feature-rich platform designed to showcase and sell the latest gadgets. It provides users with an engaging and interactive experience, allowing them to explore various devices and make informed purchases.
+Gadget Heaven is a top-notch e-commerce platform designed to showcase and sell the latest gadgets. It provides users with an engaging and interactive experience, allowing them to explore various devices and make informed purchases. The platform features a dynamic UI, seamless navigation, and interactive data visualization for an enhanced shopping experience.
 
-## List of React Fundamentals Used
-1. **JSX**: For structuring the UI components.
-2. **Components**: Modular design for reusability and maintainability.
-3. **State Management**: `useState` for dynamic data handling.
-4. **Effect Hook**: `useEffect` for side-effects like data fetching and computations.
-5. **Routing**: `react-router-dom` for navigation between pages.
-6. **Context API**: For managing global state and sharing data between components.
+## 📖 Table of Contents
 
-## Data Handling & Management
-- **Context API**: Used for state management across the application.
-- **Local Storage**: For persistent data storage, such as cart items and user preferences.
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [React Fundamentals Used](#react-fundamentals-used)
+- [Data Handling & Management](#data-handling--management)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Features
-1. **Dynamic Navigation Bar**: Adapts to user location and state.
-2. **Composed Chart Integration**: Visual representation of product pricing and ratings.
-3. **Responsive Design**: Ensures seamless usability across devices.
-4. **Interactive Product Listing**: Detailed view and sorting options.
-5. **Support**: Includes a contact form for user queries and complaints.
-6. **Dashboard**: In dashboard there are add to cart and add to wishlist system.
-7. **Stock&StockOut**: If any product is availbe then you can able to cart it. 
+---
 
+## ✨ Features
 
-## Technologies Used
-- **React.js**: Frontend framework.
-- **Tailwind CSS**: Styling and responsive design.
-- **Recharts**: Data visualization.
-- **Local Storage**: Persistent data handling.
+- **Dynamic Navigation Bar** – Adapts based on user location and state.
+- **Composed Chart Integration** – Visual representation of product pricing and ratings.
+- **Responsive Design** – Ensures seamless usability across devices.
+- **Interactive Product Listing** – Detailed product views with sorting options.
+- **User Support** – Contact form for queries and complaints.
+- **Dashboard Functionality** – Includes "Add to Cart" and "Add to Wishlist" features.
+- **Stock Management** – Products can only be added to the cart if they are available.
+
+---
+
+## 💻 Technologies Used
+
+- **React.js** – Frontend framework for building UI components.
+- **Tailwind CSS** – Styling and responsive design.
+- **Recharts** – Data visualization for product insights.
+- **Local Storage** – Persistent data handling for user preferences and cart management.
+
+---
+
+## ⚛️ React Fundamentals Used
+
+- **JSX** – Used for structuring UI components.
+- **Components** – Modular design for reusability and maintainability.
+- **State Management** – `useState` for handling dynamic data.
+- **Effect Hook** – `useEffect` for managing side effects like data fetching.
+- **Routing** – `react-router-dom` for seamless navigation.
+- **Context API** – For global state management and data sharing.
+
+---
+
+## 📊 Data Handling & Management
+
+- **Context API** – Used for state management across the application.
+- **Local Storage** – Stores cart items and user preferences for persistent data retention.
+
+---
+
+## 🚀 Installation
+
+To set up the project locally, follow these steps:
+
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/your-repository/gadget-heaven.git
