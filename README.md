@@ -94,4 +94,30 @@ swiper
 tailwindcss
 vite
 ```
+---
+##  Installation & Setup  
+Follow these steps to run the project locally:  
+
+### 1 Clone the Client Repository  
+```
+git clone https://github.com/mdimranictiu/Gadget-Heaven.git
+cd Gadget-Heaven
+```
+
+### 3 Install Dependencies
+```
+npm install
+```
+### 4 Start the Development Server
+```
+npm run dev
+```
+
+ ## Resources & Links
+📖 React Documentation: https://react.dev/
+📖 Tailwind CSS Documentation: https://tailwindcss.com/
+🔥 Firebase: https://firebase.google.com/
+
+📌 Feel free to contribute, report issues, or share your feedback! 🚀
+
 
